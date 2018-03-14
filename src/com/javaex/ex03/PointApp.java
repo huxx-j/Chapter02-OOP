@@ -9,6 +9,9 @@ public class PointApp {
         point1.setPoint(5, 5);
         point2.setPoint(10,23);
 
+//        Point point1 = new Point(5,5);
+//        Point point2 = new Point(10,23);
+
         point1.draw();
         point2.draw();
         point1.draw(point1.getX(),point1.getY());
